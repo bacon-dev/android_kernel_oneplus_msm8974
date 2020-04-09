@@ -1,9 +1,9 @@
 SRC=/home/xawlw/kernel/arg
-	GCC_VER=7.4.1
+	GCC_VER=7.5.0
 	TARGET=arm-linux-gnueabi
 	GCC_BIN=/home/xawlw/xtnd/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-linaro-7/bin
 	GCC="$GCC_BIN/${TARGET}-gcc "
-	OUT_DIR=/home/xawlw/kernel/arg/out
+	OUT_DIR=/home/xawlw/kernel/arg
 	
 	INFILE=$1
 	DIRNAME=$(dirname $INFILE)
